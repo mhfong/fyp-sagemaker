@@ -1,0 +1,56 @@
+{
+ "batch_size": 64,
+ "data_save_path": "dataset/",
+ "dataset_type": "qqq",
+ "do_continue_train": false,
+ "do_predict": true,
+ "do_train": false,
+ "do_train_visualized": false,
+ "dropout_rate": 0.2,
+ "epoch": 100,
+ "etf": "QQQ",
+ "feature_columns": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "hidden_size": 128,
+ "input_size": 6,
+ "label_columns": [
+  2,
+  3
+ ],
+ "label_in_feature_index": [
+  1,
+  2
+ ],
+ "layers": 2,
+ "learning_rate": 0.001,
+ "model_save_path": "models/",
+ "model_type": "lstm",
+ "output_size": 2,
+ "patience": 5,
+ "predict_day": 5,
+ "random_seed": 42,
+ "shuffle_train_data": true,
+ "time_step": 20,
+ "train_data_rate": 0.95,
+ "valid_data_rate": 0.15,
+ "High": [
+  348.2597466563302,
+  350.18758483204977,
+  348.6789061161431,
+  355.8621069761441,
+  358.9470688148246
+ ],
+ "Low": [
+  342.8526918763031,
+  344.5069561253244,
+  343.0306214032861,
+  350.93352667698537,
+  353.99849083989494
+ ]
+}

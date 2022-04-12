@@ -11,7 +11,7 @@
 # production
 /build
 /saved_model
-/dataset
+/lost+found
 /notebook
 
 # misc
