@@ -4,7 +4,7 @@
  "dataset_type": "top10",
  "do_continue_train": false,
  "do_predict": true,
- "do_train": false,
+ "do_train": true,
  "do_train_visualized": false,
  "dropout_rate": 0.2,
  "epoch": 100,
@@ -49,7 +49,7 @@
  "model_type": "lstm",
  "output_size": 2,
  "patience": 5,
- "predict_day": 5,
+ "predict_day": 1,
  "random_seed": 42,
  "shuffle_train_data": true,
  "tickers": [
@@ -63,28 +63,11 @@
   "NVDA",
   "PYPL",
   "ADBE",
-  "QQQ",
-  "QQQ",
-  "QQQ",
-  "QQQ",
-  "QQQ",
   "QQQ"
  ],
  "time_step": 20,
  "train_data_rate": 0.95,
  "valid_data_rate": 0.15,
- "High": [
-  357.1163050289408,
-  358.80847542680624,
-  358.86651018988186,
-  366.0444433128183,
-  367.74507689296104
- ],
- "Low": [
-  351.0104242352779,
-  352.80214522487586,
-  352.6105787489296,
-  359.97299047647437,
-  361.71791414133776
- ]
+ "High": 363,
+ "Low": 356
 }
