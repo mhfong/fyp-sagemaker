@@ -1,4 +1,4 @@
-# Sagemaker Notebook Instance for FYP
+# Sagemaker Notebook Instance for StalkPrice
 ### This notebook will be scheduled to run on AWS everyday 00:00[HKT]
 ## What does it do?
 1. Update the latest price for the dataset
